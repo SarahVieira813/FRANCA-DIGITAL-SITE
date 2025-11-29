@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+.site-header{
+    width:100%;
+    box-sizing: border-box;
+    padding: 20px 32px;
+    background: #ffffff;
+    display: flex;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+.logo img {
+    width: 96;
+    height: auto;
+}
+
+.informacoes .aluno{
+    font-size: 14px;
+    color: grey;
+    margin-bottom: 4px;
+
+}
+
+.informacoes .titulo-site{
+    font-size: 18px;
+    margin: 0;
+    color: black;
+}
